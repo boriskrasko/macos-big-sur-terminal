@@ -1,0 +1,1 @@
+# macos-big-sur-terminal
