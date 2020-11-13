@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Terminal</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="layer"></div>
+   <main class="main">
+      <div draggable='true' dropzone class="window__frame terminal inactive">
+       <div class="title__bar active">
+          <div class="traffic__lights">
+             <button class="traffic__light close oval"></button>
+             <button class="traffic__light minimise oval"></button>
+             <button class="traffic__light zoom oval"></button>
+          </div>
+          <div class="title">
+             <div class="icon"></div>
+             <h2 class="heading nowrap">ideveloper &#8212; -bash &#8212; 80x24</h2>
+          </div>
+       </div>
+       <div class="line">
+          <div class="shape"></div>
+       </div>
+       <div class="shadow"></div>
+        <pre class="wrap">
+          <code class="content"></code>
+        </pre>
+    </div>
+  </main>
+<script src="js/text-window.js"></script>
+<script src="js/active-window.js"></script>
+</body>
+</html>

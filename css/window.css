@@ -1,0 +1,52 @@
+/* #02 Windows/#01 Window Frame/Active/Titlebar */
+
+:root {
+    --shape: rgba(0, 0, 0, 0.05);
+    --active: rgba(255, 255, 255, 1);
+    --inactive: rgba(244, 244, 244, 0.9);
+    --primary: rgba(244, 244, 244, 1);
+}
+
+.window__frame {
+	position: relative;
+    border-radius: 10px;
+    border: 0.5px solid var(--shape);
+}
+
+.line {
+    position: absolute;
+    height: 0.5px;
+    left: 0px;
+    right: 0px;
+    top: 28px;
+}
+
+.shape {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: -0.5px;
+    background: var(--shape);
+}
+
+.shadow {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.0001);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.active {
+    background: var(--active);
+    border: none;
+}
+
+.inactive {
+    background: var(--inactive);
+    border: none;
+}
