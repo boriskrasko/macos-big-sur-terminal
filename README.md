@@ -2,6 +2,7 @@
 
 MacOS Big Sur terminal window design including traffic lights, shadows, first command line with actual time and date, and text input effect.
 Each design element can be used as an independent element. For each element of window used in different styles (css folder).
+Terminal was created for tutorial pages where we need to use command line.
 
 ## [GitHub pages](https://boriskrasko.github.io/macos-big-sur-terminal)
 
