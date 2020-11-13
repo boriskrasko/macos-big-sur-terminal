@@ -1,6 +1,6 @@
 # macos-big-sur-terminal
 
-macOS Big Sur terminal window design including, traffic lights, shadows, date
+MacOS Big Sur terminal window design including traffic lights, shadows, first command line with actual time and date, and text input effect.
 
 ## [GitHub pages](https://boriskrasko.github.io/macos-big-sur-terminal)
 
