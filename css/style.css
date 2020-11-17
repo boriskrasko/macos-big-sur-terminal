@@ -2,8 +2,6 @@
 @import url("window.css");
 @import url("title-bar.css");
 
-/*.tray .inner .content*/
-
 * {
   box-sizing: border-box;
 }
@@ -40,6 +38,7 @@ button {
     cursor: pointer;
     z-index: 1;
 }
+
 button img {
     width: 12px;
     height: 12px;
