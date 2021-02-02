@@ -2,13 +2,23 @@
 @import url("window.css");
 @import url("title-bar.css");
 
-/*.tray .inner .content*/
-
 * {
   box-sizing: border-box;
 }
 
-button, div, p, h1, h2, h3, h4, h5, h6, ul, li, body, html {
+button,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+body,
+html {
   padding: 0;
   margin: 0;
 }
@@ -18,73 +28,76 @@ a {
 }
 
 html {
-    background: linear-gradient(to bottom, #98d8ee 0%, #f4fbfd01 80%);
-    background-repeat: no-repeat;
+  background: linear-gradient(to bottom, #98d8ee 0%, #f4fbfd01 80%);
+  background-repeat: no-repeat;
 }
 
 body {
-    background: url(../images/appearance.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  background: url(../images/appearance.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 main {
-    padding: 8px;
-    height: 100vh;
+  padding: 8px;
+  height: 100vh;
 }
 
 button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    z-index: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
 }
+
 button img {
-    width: 12px;
-    height: 12px;
+  width: 12px;
+  height: 12px;
 }
 
 .layer {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 0;
-    background: url(../images/appearance_l.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: opacity 0.4s ease-in-out;
-    opacity: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  background: url(../images/appearance_l.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0;
 }
 
 .blur {
-     opacity: 1;
+  opacity: 1;
 }
 
 .wrap {
-    white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
 .nowrap {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .terminal {
-    width: 600px;
-    height: 300px;
-    margin: 10px auto;
+  width: 600px;
+  height: 300px;
+  margin: 10px auto;
 }
 
 .content {
-    display: block;
-    font-family: Menlo, sans-serif;
-    font-size: 11px;
-    margin: 16px 4px;
+  display: block;
+  font-family: Menlo, sans-serif;
+  font-size: 11px;
+  margin: 16px 4px;
 }
 
 @media screen and (max-width: 601px) {
-    .terminal {width: 100%}
+  .terminal {
+    width: 100%
+  }
 }
