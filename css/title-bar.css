@@ -1,47 +1,45 @@
 @font-face {
-    font-family: SF Pro;
-    src: url(../fonts/SF-Pro-Text-Regular.otf)
-    font-style: normal
+  font-family: SF Pro;
+  src: url(../fonts/SF-Pro-Text-Regular.otf) font-style: normal
 }
 
-.title__bar{
-    position: absolute;
-    height: 28px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    border-radius: 10px 10px 0px 0px;
+.title__bar {
+  position: absolute;
+  height: 28px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
- .title {
-    position: absolute;
-    width: 50%;
-    height: 17px;
-    left: calc(35% - 90px/2);
-    top: 5px;
+.title {
+  position: absolute;
+  width: 50%;
+  height: 17px;
+  left: calc(35% - 90px/2);
+  top: 5px;
 }
 
- .title .heading{
-    position: absolute;
-    height: 16px;
-    left: 16.81px;
-    right: 0.19px;
-    top: 0.5px;
-    font-family: 'SF Pro', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-    text-align: center;
-    color: #232526;
-    mix-blend-mode: multiply;
-    opacity: 0.9;
+.title .heading {
+  position: absolute;
+  height: 16px;
+  left: 16.81px;
+  right: 0.19px;
+  top: 0.5px;
+  font-family: 'SF Pro', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #232526;
+  mix-blend-mode: multiply;
+  opacity: 0.9;
 }
 
- .title .icon {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 0.31px;
-    top: calc(50% - 12px/2 + 0.5px);
+.title .icon {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 0.31px;
+  top: calc(50% - 12px/2 + 0.5px);
 }
-
