@@ -52,7 +52,3 @@ npm ERR!     /Users/ideveloper/.npm/_logs/${year}-${month}-${dayOfMonth}T00_${ad
 MacBook-Air:webpack-template ideveloper$ `;
 
 getTextContent(text);
-
-
-
-
