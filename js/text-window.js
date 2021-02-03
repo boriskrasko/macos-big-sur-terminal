@@ -25,19 +25,19 @@ You have new mail.
 MacBook-Air:~ ideveloper$ `
 
 const getTextContent = (text) => {
-	let i = 0
-	let getText = setInterval(function () {
-		if (i < text.length) {
-			content.textContent += text[i];
-			i++;
-		} else {
-			 clearInterval(getText)
-			 setTimeout(function () {
-			  content.textContent += `
+ let i = 0
+ let getText = setInterval(function () {
+  if (i < text.length) {
+   content.textContent += text[i];
+   i++;
+  } else {
+    clearInterval(getText)
+    setTimeout(function () {
+     content.textContent += `
 MacBook-Air:~ ideveloper$ `;
-			 }, 500);
-		}
-	}, 28)
+    }, 500);
+  }
+ }, 28)
 }
 const text = `npm ERR! code ELIFECYCLE
 npm ERR! errno 1

@@ -5,27 +5,27 @@ const light = document.querySelectorAll('.traffic__light');
 const colors =  ['red', 'yellow', 'green'];
 
 let getActiveWindow = () => {
-	layer.classList.add('blur');
-	titleBar.classList.remove('active');
-	titleBar.classList.add('inactive');
-	terminal.classList.remove('inactive');
-	terminal.classList.add('active');
+  layer.classList.add('blur');
+  titleBar.classList.remove('active');
+  titleBar.classList.add('inactive');
+  terminal.classList.remove('inactive');
+  terminal.classList.add('active');
 
-	for (let i = 0; i < light.length; i++) {
-		light[i].classList.add(colors[i]);
-	}
+  for (let i = 0; i < light.length; i++) {
+    light[i].classList.add(colors[i]);
+  }
 }
 
 let getInactiveWindow = () => {
-	layer.classList.remove('blur');
-	terminal.classList.remove('active');
-	terminal.classList.add('inactive');
-	titleBar.classList.remove('inactive');
-	titleBar.classList.add('active');
+  layer.classList.remove('blur');
+  terminal.classList.remove('active');
+  terminal.classList.add('inactive');
+  titleBar.classList.remove('inactive');
+  titleBar.classList.add('active');
 
-	for (let i = 0; i < light.length; i++) {
-		light[i].classList.remove(colors[i])
-	}
+  for (let i = 0; i < light.length; i++) {
+    light[i].classList.remove(colors[i])
+  }
 }
 
 terminal.addEventListener('mouseover', getActiveWindow);
