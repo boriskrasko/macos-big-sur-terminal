@@ -33,6 +33,9 @@ const getTextContent = (text) => {
 		} else {
 			 clearInterval(getText)
 			 setTimeout(function () {
+			  content.textContent += `
+MacBook-Air:~ ideveloper$ `;
+			 }, 500);
 		}
 	}, 28)
 }
